@@ -79,6 +79,15 @@ theme.
   outline: none !important;
 }
 
+:root {
+  --color-cereza: #9a0000;
+  --color-2: #00448f;
+  --color-3: #ff0;
+
+  --color-error: #ee5253;
+  --color-okay: #64b161;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -667,7 +676,8 @@ a:hover {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background: url("../images/pattern-bg.png") center #009a4e;
+  background: url("../images/imagenes_campo/antiguas/frut\ 2-1000x288.jpg")
+    center #009a4e;
   color: #fff;
   background-size: cover;
   position: absolute;
@@ -697,10 +707,14 @@ a:hover {
   display: inline-block;
 }
 .navbar .logo a img {
-  height: 48px;
+  height: 150px;
 }
 .navbar .site-menu {
   margin: 0 30px;
+  padding-left: 0px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: #9a0000;
 }
 .navbar .site-menu ul {
   display: block;
@@ -922,6 +936,13 @@ a:hover {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
+
+}
+.color-menu-red {
+  background: var(--color-cereza);
+  padding-top: 2%;
+  padding-bottom: 2%;
+
 }
 .header .button-next:hover {
   background: #fbc50b;
@@ -2481,6 +2502,7 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+
 .sidebar .side-gallery li {
   width: 50%;
   display: inline-block;
