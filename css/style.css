@@ -622,7 +622,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #000;
   font-size: 15px;
 }
 .topbar .text {
@@ -641,6 +641,11 @@ a:hover {
 }
 .topbar .social-media {
   display: inline-block;
+  background: var(--color-cereza);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .topbar .social-media ul {
   display: inline-block;
@@ -663,6 +668,11 @@ a:hover {
 }
 .topbar .phone {
   display: inline-block;
+  background: var(--color-cereza);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .topbar .phone i {
   font-size: 20px;
@@ -672,12 +682,11 @@ a:hover {
 
 /* NAVBAR */
 .navbar {
-  width: 1300px;
+  width: 100%;
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background: url("../images/imagenes_campo/antiguas/frut\ 2-1000x288.jpg")
-    center #009a4e;
+  background: url("../images/imagenes_campo/antiguas/frut 4.jpg") center #009a4e;
   color: #fff;
   background-size: cover;
   position: absolute;
@@ -936,13 +945,11 @@ a:hover {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
-
 }
 .color-menu-red {
   background: var(--color-cereza);
   padding-top: 2%;
   padding-bottom: 2%;
-
 }
 .header .button-next:hover {
   background: #fbc50b;
@@ -2182,7 +2189,7 @@ a:hover {
   font-family: "Oduda";
   color: white;
   background: url(../images/years-mask-image.jpg) no-repeat center;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
@@ -2695,15 +2702,15 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 30px 0;
-  margin-top: 50px;
+  padding: 1.5% 0;
+  margin-top: 2%;
 }
 .footer .footer-bottom span {
   display: inline-block;
   font-size: 14px;
 }
 .footer .footer-bottom span:last-child {
-  margin-left: auto;
+  text-align: center;
 }
 .footer .footer-bottom span:last-child a {
   color: #fbc50b;
