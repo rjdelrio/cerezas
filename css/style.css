@@ -64,15 +64,28 @@ theme.
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @font-face {
-  font-family: 'Oduda';
+  font-family: "Oduda";
   src: url("../fonts/Oduda-Bold.eot");
-  src: url("../fonts/Oduda-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Oduda-Bold.woff2") format("woff2"), url("../fonts/Oduda-Bold.woff") format("woff"), url("../fonts/Oduda-Bold.ttf") format("truetype"), url("../fonts/Oduda-Bold.svg#Oduda-Bold") format("svg");
+  src: url("../fonts/Oduda-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Oduda-Bold.woff2") format("woff2"),
+    url("../fonts/Oduda-Bold.woff") format("woff"),
+    url("../fonts/Oduda-Bold.ttf") format("truetype"),
+    url("../fonts/Oduda-Bold.svg#Oduda-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 /* BODY */
 * {
   outline: none !important;
+}
+
+:root {
+  --color-cereza: #9a0000;
+  --color-2: #00448f;
+  --color-3: #ff0;
+
+  --color-error: #ee5253;
+  --color-okay: #64b161;
 }
 
 body {
@@ -95,7 +108,10 @@ p {
 }
 
 /* FORM ELEMENTS */
-input[type="text"], input[type="email"], input[type="search"], input[type="password"] {
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"] {
   width: 100%;
   height: 65px;
   border: 1px solid #cecece;
@@ -103,7 +119,10 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
   border-radius: 4px;
 }
 
-input[type="submit"], input[type="button"], button[type="button"], button[type="submit"] {
+input[type="submit"],
+input[type="button"],
+button[type="button"],
+button[type="submit"] {
   height: 65px;
   border: none;
   background: #fbc50b;
@@ -135,15 +154,21 @@ select {
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
-  background-position: calc(100% - 30px) 28px, calc(100% - 25px) 28px, calc(100% - 2.5em) 15px;
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 30px) 28px, calc(100% - 25px) 28px,
+    calc(100% - 2.5em) 15px;
   background-size: 5px 5px, 5px 5px, 0px 0px;
   background-repeat: no-repeat;
 }
 
 select:focus {
-  background-image: linear-gradient(45deg, gray 50%, transparent 50%), linear-gradient(135deg, transparent 50%, gray 50%), linear-gradient(to right, #ccc, #ccc);
-  background-position: calc(100% - 25px) 26px, calc(100% - 30px) 26px, calc(100% - 2.5em) 15px;
+  background-image: linear-gradient(45deg, gray 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, gray 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 25px) 26px, calc(100% - 30px) 26px,
+    calc(100% - 2.5em) 15px;
   background-size: 5px 5px, 5px 5px, 0px 0px;
   background-repeat: no-repeat;
   outline: 0;
@@ -157,11 +182,11 @@ select:-moz-focusring {
 /* LINKS */
 a {
   color: #000;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 a:hover {
@@ -194,11 +219,13 @@ a:hover {
   padding: 0;
 }
 
-.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-car .odometer-digit {
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-car .odometer-digit {
   padding: 0;
 }
 
-.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
   left: -4px;
 }
 
@@ -254,10 +281,10 @@ a:hover {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .hamburger-menu span:nth-child(1) {
@@ -316,11 +343,11 @@ a:hover {
   height: 6px;
   border-radius: 6px;
   background: #fff;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
   opacity: 0.3;
 }
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -342,11 +369,11 @@ a:hover {
   right: 0;
   top: 0;
   background: #fbc50b;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .preloader img {
   height: 50px;
@@ -368,11 +395,11 @@ a:hover {
   left: 0;
   bottom: 0;
   background: #fbc50b;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .page-transition.active {
   height: 100%;
@@ -649,7 +676,8 @@ a:hover {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background: url("../images/pattern-bg.png") center #009a4e;
+  background: url("../images/imagenes_campo/antiguas/frut\ 2-1000x288.jpg")
+    center #009a4e;
   color: #fff;
   background-size: cover;
   position: absolute;
@@ -679,10 +707,14 @@ a:hover {
   display: inline-block;
 }
 .navbar .logo a img {
-  height: 48px;
+  height: 150px;
 }
 .navbar .site-menu {
   margin: 0 30px;
+  padding-left: 0px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: #9a0000;
 }
 .navbar .site-menu ul {
   display: block;
@@ -757,11 +789,11 @@ a:hover {
   position: absolute;
   left: 50%;
   bottom: -5px;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .navbar .site-menu ul li a:hover {
   text-decoration: none;
@@ -849,11 +881,11 @@ a:hover {
   color: #000;
   font-family: "Oduda";
   font-size: 15px;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .header .main-slider .swiper-slide .slide-inner a:hover {
   color: #fff;
@@ -875,11 +907,11 @@ a:hover {
   z-index: 3;
   font-size: 23px;
   cursor: pointer;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .header .button-prev:hover {
   background: #fbc50b;
@@ -899,11 +931,16 @@ a:hover {
   z-index: 3;
   font-size: 23px;
   cursor: pointer;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.color-menu-red {
+  background: var(--color-cereza);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .header .button-next:hover {
   background: #fbc50b;
@@ -1016,11 +1053,11 @@ a:hover {
   position: absolute;
   right: 0;
   bottom: 0;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .custom-link:hover {
   text-decoration: none;
@@ -1038,11 +1075,11 @@ a:hover {
   background: #fbc50b;
   color: #000;
   font-family: "Oduda";
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
   font-size: 15px;
 }
 .custom-button:hover {
@@ -1115,7 +1152,9 @@ a:hover {
   opacity: 0.4;
   border-bottom: 20px;
 }
-.side-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.side-slider
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #fbc50b;
   opacity: 1;
 }
@@ -1341,11 +1380,11 @@ a:hover {
 }
 
 /* IMAGE CAPTION BOX */
-.col-md-6:nth-child(2n+1) .image-caption-box {
+.col-md-6:nth-child(2n + 1) .image-caption-box {
   padding-right: 30px;
 }
 
-.col-md-6:nth-child(2n+2) .image-caption-box {
+.col-md-6:nth-child(2n + 2) .image-caption-box {
   padding-left: 30px;
 }
 
@@ -1473,7 +1512,9 @@ a:hover {
   background: #000;
   opacity: 0.1;
 }
-.carousel-image-box .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.carousel-image-box
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #009a4e;
   opacity: 1;
 }
@@ -1513,11 +1554,11 @@ a:hover {
   margin: 15px 0;
   border: 1px solid #cecece;
   padding: 50px;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .icon-box:hover {
   background: #fbc50b;
@@ -1875,11 +1916,11 @@ a:hover {
 .gallery-grid li figure a img {
   width: 100%;
   float: left;
-  -webkit-transition: all .35s ease-in-out;
-  -moz-transition: all .35s ease-in-out;
-  -ms-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .gallery-grid li figure:hover img {
   transform: scale(1.05);
@@ -2014,7 +2055,10 @@ a:hover {
   background: #fff;
   z-index: 0;
 }
-.timeline-slider .timeline-years .swiper-pagination .swiper-pagination-progressbar-fill {
+.timeline-slider
+  .timeline-years
+  .swiper-pagination
+  .swiper-pagination-progressbar-fill {
   background: #fbc50b;
 }
 .timeline-slider .timeline-content {
@@ -2158,7 +2202,9 @@ a:hover {
 .carousel-testimonials .swiper-pagination .swiper-pagination-bullet {
   background: #000;
 }
-.carousel-testimonials .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.carousel-testimonials
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #009a4e;
 }
 
@@ -2274,7 +2320,9 @@ a:hover {
   font-size: 12px;
   opacity: 1;
 }
-.highlight-slider .custom-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.highlight-slider
+  .custom-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #fbc50b;
   border-color: transparent;
   color: #000;
@@ -2452,6 +2500,7 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+
 .sidebar .side-gallery li {
   width: 50%;
   display: inline-block;
@@ -2652,7 +2701,8 @@ a:hover {
 }
 
 /* RESPONSIVE MEDIUM  */
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+@media only screen and (max-width: 1199px),
+  only screen and (max-device-width: 1199px) {
   .navbar .site-menu {
     margin: 0 auto;
   }
@@ -2678,7 +2728,8 @@ a:hover {
   }
 }
 /* RESPONSIVE TABLET  */
-@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
   .section-title h2 br {
     display: none;
   }
@@ -2823,7 +2874,8 @@ a:hover {
   }
 }
 /* RESPONSIVE MOBILE */
-@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
   .side-widget {
     width: 80vw;
   }
