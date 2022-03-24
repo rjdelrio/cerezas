@@ -936,11 +936,13 @@ a:hover {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
+
 }
 .color-menu-red {
   background: var(--color-cereza);
   padding-top: 2%;
   padding-bottom: 2%;
+
 }
 .header .button-next:hover {
   background: #fbc50b;
@@ -2620,27 +2622,35 @@ a:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 100px;
-  background: url("../images/pattern-bg.png") center #009a4e;
+  padding-top: 40px;
+  background: #9a0000;
+  /* ,url("../images/imagenes_campo/antiguas/frut\ 1-1024x768.jpg") center */
   background-size: cover;
   color: #fff;
   border-top: 3px solid #fbc50b;
+}
+.footer .upperzone {
+  width: 100%;
+  background: url("../images/imagenes_campo/antiguas/frut\ 1-1024x768.jpg");
+  background-size: cover;
 }
 .footer .logo {
   width: 100%;
   display: block;
   margin-bottom: 20px;
+  padding-top: 1%;
 }
 .footer .logo a {
   display: inline-block;
 }
 .footer .logo a img {
-  height: 48px;
+  height: 158px;
   display: inline-block;
 }
 .footer p {
   color: #fff;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .footer form {
   width: 100%;
