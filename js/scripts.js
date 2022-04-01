@@ -20,6 +20,7 @@
     $('.hamburger-menu').on('click', function (e) {
       $(this).toggleClass('open');
       $(".side-widget").toggleClass('active');
+      console.log("1");
     });
 
 

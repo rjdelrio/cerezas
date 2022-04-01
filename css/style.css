@@ -2701,7 +2701,7 @@ a:hover {
   margin: 0;
 }
 .footer .footer-menu li {
-  padding: 5px 0;
+  padding: 1% 0;
 }
 .footer .footer-bottom {
   width: 100%;
@@ -2971,3 +2971,15 @@ a:hover {
     background: var(--color-cereza);
   }
 }
+
+.contact-phone-align {
+  display:inline-block;
+  vertical-align:top;
+  list-style-type:none;
+  padding-left: 0;
+}
+
+.no-bullet-li {
+  list-style-type: none;
+}
+
