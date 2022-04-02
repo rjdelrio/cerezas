@@ -628,7 +628,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 15px;
 }
 .topbar .text {
@@ -971,15 +971,15 @@ a:hover {
   background: url("../images/parallax-element.png") no-repeat bottom center;
   z-index: 1;
 }
-
 /* PAGE HEADER */
+
 .page-header {
   width: 100%;
   height: 700px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-size: auto 150% !important;
+  background-size: cover !important;
   position: relative;
   padding-top: 100px;
   z-index: 0;
@@ -2378,6 +2378,10 @@ a:hover {
   margin: 0;
   padding-top: 40px;
 }
+.blog-post .my-main-imagen {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .blog-post .post-content .post-date {
   height: 30px;
   line-height: 32px;
@@ -2970,4 +2974,22 @@ a:hover {
     padding: 2%;
     background: var(--color-cereza);
   }
+}
+.gallery-title-zone {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-title-zone .post-content {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding-top: 40px;
+}
+.gallery-title-zone .post-content .post-title {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Oduda";
+  font-size: 38px;
 }

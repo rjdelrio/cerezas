@@ -4,7 +4,7 @@ class Header extends HTMLElement {
         var url_imagen = this.attributes.url_imagen.value;
         /*images/page-header-bg.jpg*/
         /*images/imagenes_campo/nuevas/nosotros-1.jpg*/
-        this.innerHTML = `<header class="page-header" data-background="${url_imagen}" data-stellar-background-ratio="0.7" style="background: rgba(0, 0, 0, 0) url(&quot;images/imagenes_campo/nuevas/nosotros-1.jpg&quot;) repeat scroll 0px 0px;">
+        this.innerHTML = `<header class="page-header" data-background="${url_imagen}" style="background: rgba(0, 0, 0, 0) url(images/imagenes_campo/nuevas/nosotros-1.jpg) no-repeat scroll 0px 0px;">
         <div class="container">
         <h2>${page_name}</h2>
         </div> 

@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <div w3-include-html="header.html"></div>
+  <script src="js/jquery-3.5.0.js"></script>
+  <script>
+    $(function () {
+      $("#navbar_module").load("navbar.html");
+    });
+  </script>
+  <body>
+    <div id="navbar_module"></div>
 
-<div w3-include-html="header.html"></div>
-
-<body>
-
-<script>
-  var path = window.location.pathname;
-  var page = path.split("/").pop();
-  console.log( page );
-</script>
-
-<div w3-include-html="navbar.html"></div>
-
-<!-- <header class="page-header" data-background="images/page-header-bg.jpg" data-stellar-background-ratio="0.7" style="background: rgba(0, 0, 0, 0) url(&quot;images/page-header-bg.jpg&quot;) repeat scroll 0px 0px;">
+    <!-- <header class="page-header" data-background="images/page-header-bg.jpg" data-stellar-background-ratio="0.7" style="background: rgba(0, 0, 0, 0) url(&quot;images/page-header-bg.jpg&quot;) repeat scroll 0px 0px;">
   <div class="container">
   <h2>polo</h2>
   </div> 
 </header> -->
-<header-component page_name="Nosotros" url_imagen="images/imagenes_campo/nuevas/nosotros-1.jpg"></header-component>
+    <header-component
+      page_name="Nosotros"
+      url_imagen="images/imagenes_campo/nuevas/nosotros-1.jpg"
+    ></header-component>
 
-<div w3-include-html="about_template.html"></div>
+    <div w3-include-html="about_template.html"></div>
 
+    <div w3-include-html="footer.html"></div>
 
+    <!-- <div w3-include-html="content.html"></div>  -->
 
-<div w3-include-html="footer.html"></div>
-
-<!-- <div w3-include-html="content.html"></div>  -->
-
-<script src="js/html_import.js"></script> 
-<script>includeHTML();</script>
-<script src="js/background-imagen.js"></script>
-<!-- JS FILES --> 
-<script src="js/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/swiper.min.js"></script> 
-<script src="js/fancybox.min.js"></script> 
-<script src="js/imagesloaded.pkgd.min.js"></script> 
-<script src="js/isotope.min.js"></script> 
-<script src="js/jquery.stellar.js"></script> 
-<script src="js/odometer.min.js"></script> 
-<script src="js/scripts.js"></script>
-
-</body>
+    <script src="js/html_import.js"></script>
+    <script>
+      includeHTML();
+    </script>
+    <script src="js/background-imagen.js"></script>
+    <!-- JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
