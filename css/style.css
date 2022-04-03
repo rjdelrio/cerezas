@@ -2997,9 +2997,9 @@ a:hover {
 }
 
 .contact-phone-align {
-  display:inline-block;
-  vertical-align:top;
-  list-style-type:none;
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
   padding-left: 0;
 }
 
@@ -3007,6 +3007,6 @@ a:hover {
   list-style-type: none;
 }
 
-.tab-navbar{
-  font-weight: 200;
+.chile-image {
+  max-width: 60%;
 }
