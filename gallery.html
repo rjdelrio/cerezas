@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+  <div w3-include-html="header.html"></div>
+  <script src="js/jquery-3.5.0.js"></script>
+  <script>
+    $(function () {
+      $("#navbar_module").load("navbar.html");
+    });
+  </script>
+  <body>
+    <div id="navbar_module"></div>
 
-<div w3-include-html="header.html"></div> 
-<body>
+    <header-component
+      page_name="Gallery"
+      url_imagen="images/imagenes_campo/nuevas/gallery-1.png"
+    ></header-component>
+    <!-- end container -->
+    <!-- <div class="parallax-element" data-stellar-ratio="2"></div> -->
+    <!-- end parallax-element -->
 
-<div w3-include-html="navbar.html"></div> 
-<h2>Gallery</h2>
-<p>Wild flowers, plants and fungi are the life support</p>
-</div>
-<!-- end container -->
-<!-- <div class="parallax-element" data-stellar-ratio="2"></div> -->
-<!-- end parallax-element --> 
-</header>
+    <div w3-include-html="photos.html"></div>
 
-<div w3-include-html="photos.html"></div>
+    <div w3-include-html="footer.html"></div>
 
-<div w3-include-html="footer.html"></div>
+    <!-- <div w3-include-html="content.html"></div>  -->
 
-<!-- <div w3-include-html="content.html"></div>  -->
+    <script src="js/html_import.js"></script>
+    <script src="js/background-imagen.js"></script>
+    <script>
+      includeHTML();
+    </script>
 
-<script src="js/html_import.js"></script> 
-<script>includeHTML();</script>
-
-<!-- JS FILES --> 
-<script src="js/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/swiper.min.js"></script> 
-<script src="js/fancybox.min.js"></script> 
-<script src="js/imagesloaded.pkgd.min.js"></script> 
-<script src="js/isotope.min.js"></script> 
-<script src="js/jquery.stellar.js"></script> 
-<script src="js/odometer.min.js"></script> 
-<script src="js/scripts.js"></script>
-
-</body>
+    <!-- JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/jquery.stellar.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
