@@ -2997,13 +2997,15 @@ a:hover {
 }
 
 .contact-phone-align {
-  display:inline-block;
-  vertical-align:top;
-  list-style-type:none;
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
   padding-left: 0;
 }
 
 .no-bullet-li {
   list-style-type: none;
 }
-
+.chile-image {
+  max-width: 60%;
+}
