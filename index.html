@@ -4,13 +4,13 @@
   <script src="js/jquery-3.5.0.js"></script>
   <script>
     $(function () {
-      $("#switching_photos_module").load("switching_photos.html");
       $("#navbar_module").load("navbar.html");
     });
   </script>
-  <div id="navbar_module"></div>
-  <div id="switching_photos_module"></div>
   <body>
+    <div id="navbar_module"></div>
+    <div w3-include-html="switching_photos.html"></div>
+
     <div w3-include-html="footer.html"></div>
 
     <!-- <div w3-include-html="content.html"></div>  -->

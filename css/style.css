@@ -864,6 +864,7 @@ a:hover {
   top: 0;
   background-size: cover !important;
   background-position: center !important;
+  z-index: 1;
 }
 .header .main-slider .swiper-slide .slide-inner {
   width: 100%;
