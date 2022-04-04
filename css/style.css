@@ -3051,3 +3051,7 @@ a:hover {
   font-weight: bold;
   color: #009879;
 }
+
+.formal-text {
+  text-align: left;
+}
