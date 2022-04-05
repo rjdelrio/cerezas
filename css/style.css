@@ -481,7 +481,7 @@ a:hover {
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   background: var(--color-cereza);
-  background-image: url("../images/pattern-bg.png");
+  background-image: url("../images/imagenes_campo/nuevas/pattern-bg.png");
   background-position: center;
   background-size: cover;
   z-index: 6;
@@ -513,11 +513,20 @@ a:hover {
 .side-widget .show-mobile {
   display: block;
   width: 100%;
+  text-align: left;
 }
-@media screen and (max-width: 600px) {
-  #hide-for-pc {
+
+.side-widget .site-menu ul li ul {
+  padding-left: 15%;
+}
+
+
+@media screen and (min-width: 991px) {
+  .hide-for-pc {
     visibility: hidden;
     display: none;
+    width: 0;
+    height: 0;
   }
 }
 .side-widget .hide-mobile {
@@ -599,7 +608,7 @@ a:hover {
   display: block;
   /* padding-left: 20px; */
   margin-bottom: 10px;
-  background-color: #fbc50b;
+  /* background-color: #fbc50b; */
 }
 .side-widget .site-menu ul li a {
   color: #fff;
@@ -2792,6 +2801,15 @@ a:hover {
 
   .side-widget .show-mobile li {
     display: list-item;
+  }
+
+  .side-widget .site-menu ul li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .side-widget .site-menu ul li ul {
+    padding-left: 15%;
   }
 
   .side-slider {
