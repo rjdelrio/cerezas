@@ -895,7 +895,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 80px;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 10px;
 }
 .header .main-slider .swiper-slide .slide-inner p {
@@ -1021,7 +1021,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 100px;
-  font-family: "Oduda";
+  font-family: "Garet";
 }
 .page-header .container p {
   width: 100%;
@@ -1153,7 +1153,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 50px;
-  font-family: "Oduda";
+  font-family: "Garet";
 }
 .section-title p {
   margin-top: 30px;
@@ -1234,17 +1234,17 @@ a:hover {
 .side-content h2 {
   font-size: 80px;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: "Garet";
 }
 .side-content h5 {
   font-size: 36px;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 30px;
 }
 .side-content h6 {
   font-size: 36px;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 30px;
 }
 .side-content p {
@@ -1345,7 +1345,7 @@ a:hover {
 .text-box h2 {
   display: block;
   font-size: 50px;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 20px;
 }
 .text-box p {
@@ -1395,7 +1395,7 @@ a:hover {
   margin-bottom: 20px;
   font-size: 36px;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: "Garet";
 }
 .image-content-box figure {
   width: 100%;
@@ -1454,7 +1454,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: "Garet";
   font-size: 32px;
 }
 .image-caption-box .content p {
@@ -1531,7 +1531,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: "Garet";
   font-size: 22px;
 }
 .carousel-image-box .content p {
@@ -1627,7 +1627,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 26px;
-  font-family: "Oduda";
+  font-family: "Garet";
 }
 .icon-box .content p {
   display: block;
@@ -1822,7 +1822,7 @@ a:hover {
   width: 100%;
   display: block;
   font-size: 26px;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 5px;
 }
 .experts-slider figure figcaption small {
@@ -1973,7 +1973,7 @@ a:hover {
 }
 .services-list-box h6 {
   font-size: 26px;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 15px;
 }
 .services-list-box h5 {
@@ -1985,7 +1985,7 @@ a:hover {
 }
 .services-list-box h2 {
   font-size: 50px;
-  font-family: "Oduda";
+  font-family: "Garet";
   color: #009a4e;
   line-height: 1;
   margin-bottom: 20px;
@@ -2130,7 +2130,7 @@ a:hover {
 }
 .timeline-slider .timeline-content .swiper-slide .content h2 {
   font-size: 28px;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 20px;
 }
 .timeline-slider .timeline-content .swiper-slide .content p {
@@ -2288,7 +2288,7 @@ a:hover {
 .testimonial .infos h6 {
   display: block;
   font-size: 30px;
-  font-family: "Oduda";
+  font-family: "Garet";
 }
 
 /* HIGHLIGHT SLIDER */
@@ -2327,7 +2327,7 @@ a:hover {
 .highlight-slider .swiper-slide .container h2 {
   display: block;
   font-size: 60px;
-  font-family: "Oduda";
+  font-family: "Garet";
   margin-bottom: 40px;
 }
 .highlight-slider .custom-pagination {
@@ -2436,7 +2436,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: "Garet";
   font-size: 38px;
 }
 .blog-post .post-content .full-image {
@@ -2456,7 +2456,7 @@ a:hover {
   color: #fff;
 }
 .blog-post .post-content h5 {
-  font-family: "Oduda";
+  font-family: "Garet";
   font-size: 20px;
 }
 .blog-post .post-content ul {
@@ -2489,7 +2489,7 @@ a:hover {
   font-size: 24px;
   font-weight: 800;
   color: #009a4e;
-  font-family: "Oduda";
+  font-family: "Garet";
   padding-top: 10px;
   padding-bottom: 30px;
   margin-bottom: 20px;
@@ -2713,7 +2713,7 @@ a:hover {
   margin-bottom: 25px;
   border-bottom: 4px solid #fbc50b;
   font-size: 20px;
-  font-family: "Oduda";
+  font-family: "Garet";
   padding-bottom: 5px;
 }
 .footer .footer-menu {
@@ -2948,6 +2948,7 @@ a:hover {
 
   .header .main-slider .swiper-slide .slide-inner h1 {
     font-size: 60px;
+    font-family: 'Garet';
   }
 
   .col-md-4:nth-child(2) .image-content-box {
@@ -3022,7 +3023,7 @@ a:hover {
   width: 100%;
   display: block;
   margin-bottom: 20px;
-  font-family: "Oduda";
+  font-family: "Garet";
   font-size: 38px;
 }
 
